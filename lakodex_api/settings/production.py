@@ -1,7 +1,7 @@
 import dj_database_url
 from lakodex_api.settings.common import *
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['intense-citadel-86043.herokuapp.com']
 
