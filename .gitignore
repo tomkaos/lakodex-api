@@ -1,0 +1,5 @@
+sqlite3.db
+/lakodex_api/settings/development.py
+.idea
+.vscode
+.DS_Store
