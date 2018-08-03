@@ -3,7 +3,7 @@ from lakodex_api.settings.common import *
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['intense-citadel-86043.herokuapp.com']
+ALLOWED_HOSTS = ['pacific-reef-10230.herokuapp.com']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
