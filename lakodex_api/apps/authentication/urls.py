@@ -24,6 +24,8 @@ from .views import (
     SocialAccountDisconnectView
 )
 
+from rest_framework_jwt.views import verify_jwt_token
+
 app_name = 'authentication'
 
 urlpatterns = [
@@ -31,6 +33,8 @@ urlpatterns = [
 
     # url(r'^password/reset/$', PasswordResetView.as_view(), name='rest_password_reset'),
     # url(r'^password/reset/confirm/$', PasswordResetConfirmView.as_view(),name='rest_password_reset_confirm'),
+
+    url(r'^token-verify/', verify_jwt_token),
 
     url(r'^password/change/$', PasswordChangeView.as_view(), name='rest_password_change'),
     url(r'^password/check/$', PasswordCheckView, name="rest_password_check"),
