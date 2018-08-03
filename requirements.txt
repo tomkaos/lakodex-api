@@ -45,3 +45,4 @@ six==1.11.0
 sqlparse==0.2.4
 urllib3==1.23
 var-dump==1.2
+whitenoise==3.3.1
