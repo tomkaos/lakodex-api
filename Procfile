@@ -1,1 +1,1 @@
-web: gunicorn conduit.wsgi --log-file -
+web: gunicorn lakodex_api.wsgi --log-file -
